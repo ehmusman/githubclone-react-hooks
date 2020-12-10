@@ -17,14 +17,6 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [alert, setAlert] = useState(null);
 
-
-  // state = {
-  //   users: [],
-  //   user: {},
-  //   repos: [],
-  //   loading: false,
-  //   alert: null
-  // }
   const searchUser = async (text) => {
     setLoading(true)
 
